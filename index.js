@@ -24,7 +24,6 @@ async function main () {
 
     let benchmarkTimes = [];
     for (let platform in config) {
-      if (config.hasOwnProperty(platform)) {
         const benchmarkConfig = (config[platform] || {})[model]
         if (!benchmarkConfig) {
           logger.debug({ platform, model, batchSize, coresNum }, 'couldnt find benchmark configurations')
@@ -38,7 +37,6 @@ async function main () {
         await sleep(benchmarkTime);
         //Add benchmark time-result
         benchmarkTimes.push(benchmarkTime);
-      }
     }
 
     res.send(benchmarkTimes).end();
