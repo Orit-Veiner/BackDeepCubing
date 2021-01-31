@@ -8,11 +8,13 @@ Back-end was implemnted with Node.js since it's a language I'm familiar with and
 
 ### Installing
 
-Download project to local folder.
+Download project to local folder. 
 Make sure port 8080 is available.
 
 ### Executing program
 
-From project folder:
-Run *npm install*
-Run *node index.js*
+Run from project folder:
+```
+npm install
+node index.js
+```
