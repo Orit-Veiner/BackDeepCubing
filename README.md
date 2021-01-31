@@ -4,7 +4,7 @@ A simple web server that listens on a port and accepts requests for benchmark te
 
 ## Description
 
-Back-end was implemnted with Node.js since it's a language I'm familiar with and the Python script served as an example.
+Back-end was implemnted with Node.js.
 
 ### Installing
 
